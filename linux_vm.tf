@@ -2,7 +2,7 @@
 resource "utho_cloud_instance" "example" {
   name            = "cj-linux-vm"
   dcslug          = "innoida"
-  image           = "ubuntu-22.04-x86_64"
+  image           = "ubuntu-24.04-x86_64"
   planid          = "10045"
   enablebackup    = "false"
   billingcycle    = "hourly"
