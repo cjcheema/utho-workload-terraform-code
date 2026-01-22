@@ -7,7 +7,7 @@ variable "utho_api_token" {
 variable "dcslug" {
   description = "Data center slug for Utho Cloud resources"
   type        = string
-  default     = "innoida"
+  default     = "inmumbaizone2"
   
 }
 
