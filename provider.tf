@@ -8,6 +8,5 @@ terraform {
 }
 
 provider "utho" {
-  api_token = var.utho_api_token
-  region    = "in-noida"
+  token = var.utho_api_token
 }
